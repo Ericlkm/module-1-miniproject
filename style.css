@@ -55,6 +55,7 @@ text-align:center;
 .m figcaption{
     font-size:larger;
     font-weight: bold;
+    font-style: italic;
     
 }
 section {
@@ -99,5 +100,18 @@ button:hover{
     border-radius: 5px;
     font-size:15px;
     font-style:italic;
+}
+
+a:hover{
+    color:lightgreen;
+    font-style: italic;
+    text-decoration: underline black;
+    text-shadow:1px 2px 4px black;
+}
+.h h1::first-letter{
+    font-size:2em;
+}
+.m figcaption::first-letter{
+    font-size:30px
 }
 
