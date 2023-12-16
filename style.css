@@ -1,0 +1,95 @@
+body{
+    background-color:lightgrey;
+    position: relative;
+    margin:0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+.h{
+    padding-top:20px;
+    text-align: center;
+    background-color:lightblue;
+    font-size:large;
+    display: block;
+    border-bottom: solid 5px black;
+    position: fixed;
+    margin-left:0px;
+    width:100%;
+    
+    
+}
+.h a{
+    text-align:right;
+    text-decoration: none;
+    padding: 2px 10px;
+    color:white;
+    display: inline-block;
+    text-shadow: 1px 2px 5px black;
+    font-size:larger;
+    
+    
+}
+.m{
+    text-align:center;
+    background-color:darkgrey;
+    padding-top:150px;
+    
+}
+.m h1{
+    font-size:40px;
+    margin-top: 5px;
+
+}
+.m figure{
+text-align:center;
+}
+.m img{
+    width:250px;
+    box-shadow:1px 3px 4px;
+}
+.m figcaption{
+    font-size:larger;
+    font-weight: bold;
+    padding-bottom: 50px;
+}
+section {
+    text-align: center;
+    background-color: white;
+    border:outset black;
+    font-size:25px;
+    margin:auto;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    
+    
+    
+}
+form{
+    border:solid black;
+    font-size:20px;
+    width:500px;
+    height:100px;
+    margin:auto;
+    text-align:center;
+    border-radius: 10px;
+    border-width: 5px;
+
+}
+
+
+footer{
+    text-align:center;
+    background-color:lightcoral;
+    height:50px;
+    padding-top:5px;
+}
+
+button:hover{
+    background-color:lightgreen;
+    border-radius: 5px;
+    font-size:15px;
+    font-style:italic;
+}
+
